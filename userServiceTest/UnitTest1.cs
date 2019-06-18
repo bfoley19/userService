@@ -13,7 +13,7 @@ namespace userServiceTest
         [TestMethod]
         public void TestMethod2()
         {
-            // This is a test.
+            // This is a test for auto linking.
         }
     }
 }
