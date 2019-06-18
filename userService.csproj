@@ -10,4 +10,26 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="userServiceTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />
+    <None Remove="userServiceTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
+    <None Remove="userServiceTest\obj\userServiceTest.csproj.nuget.cache" />
+    <None Remove="userServiceTest\obj\userServiceTest.csproj.nuget.g.props" />
+    <None Remove="userServiceTest\obj\userServiceTest.csproj.nuget.g.targets" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.AssemblyInfoInputs.cache" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.assets.cache" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.csproj.CoreCompileInputs.cache" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.csproj.FileListAbsolute.txt" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.csprojAssemblyReference.cache" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.dll" />
+    <None Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="userServiceTest\UnitTest1.cs" />
+    <Compile Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.AssemblyInfo.cs" />
+    <Compile Remove="userServiceTest\obj\Debug\netcoreapp2.2\userServiceTest.Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="userServiceTest\obj\project.assets.json" />
+  </ItemGroup>
 </Project>
